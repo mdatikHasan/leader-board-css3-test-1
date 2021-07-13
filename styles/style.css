@@ -20,6 +20,7 @@ main{
 .container{
     width: 870px;
     background-color: #FFFFFF;
+    border-radius: 5px;
 }
 
 
@@ -112,18 +113,74 @@ main{
 #late-courses{
     margin-top: 21px;
 }
+
+.course-title h2{
+    color: #562EFF;
+    margin-top: 23px;
+    margin-bottom: 24px;
+}
 .courses{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+}
+
+.course{
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.05);
+    padding-bottom: 10px;
+    border-radius: 20px;
 }
 
 .corse-banner img{
     width: 224px;
     height: 104px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.course-name h3{
+    font-size: 20px;
 }
 
 .late-courses{
-  margin: 23px 57px 28px 30px;
+  margin: 23px 34px 28px 30px;
+}
+
+.author-name{
+    text-decoration: none;
+    color: #ED6B4F;
+    margin-top: -8px;
+    margin-bottom: 20px;
+}
+
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rating{
+    font-size: 12px;
+    font-weight: 700;
+}
+.filled{
+    color: #FFC014;
+}
+.empty{
+    color: #AEAEAE;
+}
+.rating span{
+    margin-left: 10px;
+    color: #AEAEAE;
+}
+
+.duration{
+    background: #FFE4E8;
+    padding: 1px 5px;
+    border-radius: 50px;
+    color: #FF4A60;
+    font-weight: 600;
+    margin-right: 20px;
 }
 
 
